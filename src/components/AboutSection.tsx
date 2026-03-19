@@ -18,8 +18,9 @@ const AboutSection = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
+            className="rounded-3xl bg-card/70 backdrop-blur-md border border-border/50 p-8 shadow-bakery"
           >
-            <span className="text-sm font-medium text-primary uppercase tracking-widest">Our Story</span>
+            <span className="text-sm font-medium text-primary uppercase tracking-widest drop-shadow-sm">Our Story</span>
             <h2 className="text-3xl sm:text-5xl font-display font-bold mt-3 mb-6 flex flex-wrap items-center gap-x-3">
               About 
               <span className="text-gradient-warm inline-flex items-center gap-3">
@@ -27,11 +28,11 @@ const AboutSection = () => {
                 <img src="/logo.png" alt="BakeStory Logo" className="h-20 sm:h-24 w-auto drop-shadow-md" />
               </span>
             </h2>
-            <p className="text-muted-foreground text-lg leading-relaxed mb-6 font-serif-body">
+            <p className="text-foreground/85 text-lg leading-relaxed mb-6 font-serif-body">
               At BakeStory, every creation begins with a passion for sharing joy through irresistible bakes. 
               Every product is handcrafted with love, care, and only the finest ingredients.
             </p>
-            <p className="text-muted-foreground leading-relaxed mb-6">
+            <p className="text-foreground/75 leading-relaxed mb-6">
               We specialize in custom cakes for birthdays, weddings, anniversaries, baby showers, corporate events, 
               and elegant French-style cakes. Whether it's a grand celebration or a simple sweet craving, 
               BakeStory has something special for you.
