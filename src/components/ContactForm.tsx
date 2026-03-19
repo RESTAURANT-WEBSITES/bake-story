@@ -21,8 +21,9 @@ const ContactForm = () => {
             initial={{ opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
+            className="rounded-3xl bg-card/70 backdrop-blur-md border border-border/50 p-8 shadow-bakery"
           >
-            <span className="text-sm font-medium text-primary uppercase tracking-widest">Get in Touch</span>
+            <span className="text-sm font-medium text-primary uppercase tracking-widest drop-shadow-sm">Get in Touch</span>
             <h2 className="text-3xl sm:text-5xl font-display font-bold mt-3 mb-6">
               Contact <span className="text-gradient-warm">Us</span>
             </h2>
@@ -34,7 +35,7 @@ const ContactForm = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">Address</h4>
-                  <p className="text-sm text-muted-foreground">Makkah Tower, Mayyil, Kerala 670602</p>
+                  <p className="text-sm text-foreground/80">Makkah Tower, Mayyil, Kerala 670602</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -43,7 +44,7 @@ const ContactForm = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">Phone</h4>
-                  <p className="text-sm text-muted-foreground">+91 9961155166 · +91 9746800449</p>
+                  <p className="text-sm text-foreground/80">+91 9961155166 · +91 9746800449</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -52,7 +53,7 @@ const ContactForm = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">Email</h4>
-                  <p className="text-sm text-muted-foreground">bakestory228@gmail.com</p>
+                  <p className="text-sm text-foreground/80">bakestory228@gmail.com</p>
                 </div>
               </div>
             </div>
